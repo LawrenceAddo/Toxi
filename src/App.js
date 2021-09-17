@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import Navbar from './components/pages/Navbar';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import Home from './components/pages/HomePage/Home'
+import Community from './components/pages/Community/Community'
+import Auctions from './components/pages/Auctions/Auctions'
+import Create from './components/pages/Create/Create'
+import Connect from './components/pages/Connect/Connect'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path='/' exact component={Home}/>
+        <Route path='/Community' component={Community}/>
+        <Route path='/Auctions' component={Auctions}/>
+        <Route path='/Create' component={Create}/>
+        <Route path='/Connect' component={Connect}/>
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 
