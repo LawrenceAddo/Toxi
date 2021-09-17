@@ -48,7 +48,7 @@ function Artist() {
                                 <div className="icon">
                                     <GiLizardman />
                                 </div>
-                                <h3>Unknown</h3>
+                                <h3>Toxi</h3>
                             </div>
                         </Link>
                         
