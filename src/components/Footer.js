@@ -70,10 +70,10 @@ function Footer() {
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               <RiCopperCoinLine className='navbar-icon' />
-              Athena
+              Toxi
             </Link>
           </div>
-          <small className='website-rights'>Athena © 2021</small>
+          <small className='website-rights'>Toxi © 2021</small>
           <div className='social-icons'>
             <a
               className='social-icon-link'

@@ -1,5 +1,5 @@
 :root {
-    --primary: #fff;
+    --primary: #ffd500;
 }
 
 .btn {
@@ -13,13 +13,13 @@
 
 .btn--primary {
     background-color: var(--primary);
-    color: #242424;
+    color: #000;
     border: 1px solid var(--primary);
 }
 
 .btn--outline {
     background-color: transparent;
-    color: #fff;
+    color: #ffd500;
     padding: 8px 20px;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
@@ -44,7 +44,7 @@
     background-color: transparent;
     color: #fff;
     padding: 14px 20px;
-    border: 1px solid #fff;
+    border: 1px solid #ffd500;
     transition: all 0.3s ease-out;
 }
 
@@ -63,7 +63,7 @@
 
 .btn--wide:hover {
     color: #fff;
-    background-color: #8A2BE2;
+    background-color: #ffd500;
     transition: all 0.2s ease-out;
 }
 
@@ -73,8 +73,8 @@
     border: none;
 }
 
-.purple {
-    background-color: #8A2BE2;
+.golden {
+    background-color: #ffd500;
     color: #fff;
     border: none;
 }

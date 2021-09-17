@@ -21,7 +21,7 @@ function Artist() {
                                 <div className="icon">
                                     <GiPyromaniac />
                                 </div>
-                                <h3>Sairam Nomula</h3>
+                                <h3>Sairam</h3>
                             </div>
                         </Link>
 
@@ -39,7 +39,7 @@ function Artist() {
                                 <div className="icon">
                                     <SiPostwoman />
                                 </div>
-                                <h3>K. Dushyant Reddy</h3>
+                                <h3>Dushyant</h3>
                             </div>
                         </Link>
 
@@ -48,7 +48,7 @@ function Artist() {
                                 <div className="icon">
                                     <GiLizardman />
                                 </div>
-                                <h3>Unknown</h3>
+                                <h3>Toxi</h3>
                             </div>
                         </Link>
                         

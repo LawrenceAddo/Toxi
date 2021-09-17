@@ -20,6 +20,9 @@ function Navbar() {
             setButton(true);
         }
     }
+    // const handleClick = (e) => {
+    //     e.preventDefault()
+    // }
 
     useEffect(() => {
         showButton()
@@ -46,7 +49,7 @@ function Navbar() {
                     </li>
                     <li className='nav-item'>
                         <Link to='/Auctions' className="nav-links" onClick={closeMobileMenu}>
-                            Live Auctions
+                            Auctions
                         </Link>
                     </li>
                     <li className='nav-item'>
@@ -61,11 +64,11 @@ function Navbar() {
                     </li>
                     <li className="nav-btn">
                         {button ? (
-                            <Link className="btn-link">
-                                <Button to='/Connect' buttonStyle='btn--outline'>Connect Wallet</Button>
+                            <Link to='/Connect' onClick={handleClick} className="btn-link">
+                                <Button buttonStyle='btn--outline'>Connect Wallet</Button>
                             </Link>
                         ): (
-                            <Link to='/Connect' className="btn-link" onClick={closeMobileMenu}>
+                            <Link to='/Connect' onClick={handleClick} className="btn-link">
                                 <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>Connect Wallet</Button>
                             </Link>
                         )}

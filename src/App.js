@@ -7,7 +7,6 @@ import Community from './components/pages/Community/Community'
 import Auctions from './components/pages/Auctions/Auctions'
 import Create from './components/pages/Create/Create'
 import Connect from './components/pages/Connect/Connect'
-import Footer from './components/Footer'
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
         <Route path='/Create' component={Create}/>
         <Route path='/Connect' component={Connect}/>
       </Switch>
-      <Footer />
     </Router>
   );
 }

@@ -20,9 +20,9 @@
 }
 .testimonial .slick-dots li button:before {
   font-size: 15px;
-  color: purple;
+  color: #ffd500;
 }
 .testimonial .slick-dots li {
   top: 15px;
-  color: purple;
+  color: #ffd500;
 }

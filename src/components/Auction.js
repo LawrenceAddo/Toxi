@@ -6,7 +6,7 @@ import {SiFossilscm} from 'react-icons/si'
 import {GiBleedingHeart} from 'react-icons/gi'
 import {IconContext} from 'react-icons/lib'
 import './Auction.css'
-
+/* This is for Collections ----- Popular NFTs */
 function Auction() {
     return (
         <IconContext.Provider value={{color: '#fff', size: 64}}>
