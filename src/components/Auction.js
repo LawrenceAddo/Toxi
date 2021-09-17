@@ -5,7 +5,6 @@ import {SiFigshare} from 'react-icons/si'
 import {SiFossilscm} from 'react-icons/si'
 import {GiBleedingHeart} from 'react-icons/gi'
 import {IconContext} from 'react-icons/lib'
-import {Button} from './Button'
 import './Auction.css'
 
 function Auction() {

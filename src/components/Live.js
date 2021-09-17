@@ -56,7 +56,7 @@ function Live() {
                                 </div>
                                 <h3>Robotic Arts</h3>
                                 <ul className='Live__container-features'>
-                                    <li>by Dushyant</li>
+                                    <li>by K. Dushyant</li>
                                     <li>1.5 BNB</li>
                                 </ul>
                                 <Button buttonSize='btn--wide' buttonColor='primary'>

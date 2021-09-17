@@ -39,7 +39,7 @@ function Artist() {
                                 <div className="icon">
                                     <SiPostwoman />
                                 </div>
-                                <h3>Dushyant Reddy</h3>
+                                <h3>K. Dushyant Reddy</h3>
                             </div>
                         </Link>
 
@@ -48,7 +48,7 @@ function Artist() {
                                 <div className="icon">
                                     <GiLizardman />
                                 </div>
-                                <h3>Toxi</h3>
+                                <h3>Unknown</h3>
                             </div>
                         </Link>
                         
