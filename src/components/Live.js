@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import {BsBrush} from 'react-icons/bs'
 import {FaRobot} from 'react-icons/fa'
-import {FcCamera} from 'react-icons/fc'
+import {AiOutlineCamera} from "react-icons/ai";
 import {RiBrush4Fill} from 'react-icons/ri'
 import {IconContext} from 'react-icons/lib'
 import {Button} from './Button'
@@ -36,7 +36,7 @@ function Live() {
                         <Link to='/connect' className='Live__container-card'>
                             <div className="Live__container-cardInfo">
                                 <div className="icon">
-                                    <FcCamera />
+                                    <AiOutlineCamera />
                                 </div>
                                 <h3>Photography</h3>
                                 <ul className='Live__container-features'>
