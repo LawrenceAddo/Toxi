@@ -1,9 +1,9 @@
 # Toxi NFT Marketplace
-## Tagline
+## Create. Collect. Sell
 ## The Problem it solves
 Every artists aren't much benefitted for their effort, energy and time. If they could benefit for their artworks, then it could motivate them a lot. Due to the high volatile nature of cryptocurrency prices and the high risk exist in trading, NFTs trading could be a 100% returns expectation investment. We have provided NFT marketplace for the NFT traders, creators and collectors with royalties in picture.
 ## Challenges we ran into
-
+We faced numerous challenges throughout the journey especially in developing smart contract.
 
 ## Technologies we used
     * React.js
@@ -12,6 +12,7 @@ Every artists aren't much benefitted for their effort, energy and time. If they 
     * CSS
     * Node.js
     * Javascript
+    * Solidity
 
 ## Screenshots:
 ![landing](https://user-images.githubusercontent.com/78247889/133885970-5f12da2b-4f73-4c60-901d-762df3d817cf.png)
