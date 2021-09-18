@@ -16,32 +16,6 @@ const FormSignup = ({ submitForm }) => {
           Create
         </h1>
         <div className='form-inputs'>
-          <label className='form-label'>Name</label>
-          <input
-            className='form-input'
-            type='text'
-            name='name'
-            placeholder='Name'
-            value={values.name}
-            onChange={handleChange}
-          />
-          {errors.name && <p>{errors.name}</p>}
-        </div>
-
-        <div className='form-inputs'>
-          <label className='form-label'>Email</label>
-          <input
-            className='form-input'
-            type='email'
-            name='email'
-            placeholder='Email'
-            value={values.email}
-            onChange={handleChange}
-          />
-          {errors.email && <p>{errors.email}</p>}
-        </div>
-
-        <div className='form-inputs'>
           <label className='form-label'>Item name</label>
           <input
             className='form-input'
@@ -54,6 +28,20 @@ const FormSignup = ({ submitForm }) => {
           {errors.item && <p>{errors.item}</p>}
         </div>
 
+        <div className='form-inputs'>
+          <label className='form-label'>Description</label>
+          <input
+            className='form-input'
+            type='text'
+            name='desc'
+            placeholder='Description'
+            value={values.name}
+            onChange={handleChange}
+          />
+          {errors.desc && <p>{errors.desc}</p>}
+        </div>
+
+        
         <div className='form-inputs'>
           <label className='form-label'>Item price</label>
           <input

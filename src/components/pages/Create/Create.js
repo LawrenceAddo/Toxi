@@ -8,8 +8,8 @@ function Create() {
     return (
         <>
             <Hero {...CreateObjOne} />
-            <Form />
             <Upload />
+            <Form />
         </>
     )
 }

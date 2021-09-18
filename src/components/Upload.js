@@ -24,7 +24,7 @@ export class Upload extends Component {
 
           <div className="Upload__section">
             <div className="Upload__wrapper">
-              <h1 className="Upload__heading">Upload your file</h1>
+              <h1 className="Upload__heading">Upload your NFT!</h1>
               <br></br>
               <div className="img-holder">
                 <img src={profileImg} alt="" id="img" className="img" />
@@ -38,7 +38,7 @@ export class Upload extends Component {
               />
               <div className="label">
                 <label className="image-upload" htmlFor="input">
-                  Choose File
+                  Upload art
                 </label>
               </div>
               <br></br>
