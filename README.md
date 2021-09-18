@@ -21,4 +21,4 @@ We faced numerous challenges throughout the journey especially in developing sma
 ![create](https://user-images.githubusercontent.com/78247889/133886015-a00a62ae-4a5e-4f79-8304-2b32903e1c5a.png)
 ### Mobile view:
 ![mobile](https://user-images.githubusercontent.com/78247889/133885997-54dcb98e-1561-47bc-be08-bfbe99e7513b.png)
-### Video:
+### Video: https://www.loom.com/share/057df0e5343944eb90f9a3ed80b3ac1c
